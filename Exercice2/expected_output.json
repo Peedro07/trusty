@@ -1,0 +1,27 @@
+[
+    {
+        "companyName":"Netflix",
+        "broadcastSlackMessage": {
+            "blocks": [
+                {
+                    "type": "divider"
+                },
+                {
+                    "type": "section",
+                    "text": {
+                        "type": "mrkdwn",
+                        "text": "Hi {{firstName}} 👋 This is your weekly update on new position openings at `{{companyName}}` \n@here are last week's openings:"
+                    }
+                },
+                {
+                    "..." :"..."
+                }
+            ]
+        },
+        "nbrOpenJobThisWeek":4
+    },
+    {
+        "companyName":"Swile",
+        "...":"..."
+    }
+]
